@@ -37,7 +37,7 @@ export const CreateChannelModal = () => {
     name: z
       .string()
       .min(1, "Name  must be at least 3 characters")
-      .max(256, "Password must be at best 256 characters"),
+      .max(256, "Name must be at best 256 characters"),
   });
 
   const form = useForm<z.infer<typeof schema>>({

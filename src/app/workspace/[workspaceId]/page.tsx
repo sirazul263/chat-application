@@ -64,7 +64,7 @@ const WorkspaceIdPage = () => {
     return <PageLoader />;
   }
 
-  if (!workspace) {
+  if (!workspace || !member) {
     <PageError message="No workspace found" />;
   }
 
