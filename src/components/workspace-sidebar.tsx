@@ -1,4 +1,4 @@
-import { useCurrentMember } from "@/features/members/api/use-current-memeber";
+import { useCurrentMember } from "@/features/members/api/use-current-member";
 import { useGetWorkspaceById } from "@/features/workspaces/api/use-get-workspace-by-id";
 import { useWorkspaceId } from "@/hooks/use-workspace-id";
 import PageLoader from "./page-loader";

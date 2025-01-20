@@ -30,7 +30,7 @@ import { z } from "zod";
 import { useUpdateChannel } from "../api/use-update-channel";
 import { useDeleteChannel } from "../api/use-delete-channel";
 import { useWorkspaceId } from "@/hooks/use-workspace-id";
-import { useCurrentMember } from "@/features/members/api/use-current-memeber";
+import { useCurrentMember } from "@/features/members/api/use-current-member";
 
 interface HeaderProps {
   title: string;
